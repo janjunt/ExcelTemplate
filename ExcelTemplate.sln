@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelTemplate", "src\ExcelT
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CDD49C2B-A9D8-42FF-9E62-A711871F1843}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5A850B2A-7BE3-4F30-9702-E88FC9B86DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelTemplate.Tests", "test\ExcelTemplate.Tests\ExcelTemplate.Tests.csproj", "{4449FF57-F16A-417A-8731-BB052DAA142E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,16 @@ Global
 		{74224F9B-64F8-456C-8A2D-953EA4615FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74224F9B-64F8-456C-8A2D-953EA4615FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74224F9B-64F8-456C-8A2D-953EA4615FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4449FF57-F16A-417A-8731-BB052DAA142E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4449FF57-F16A-417A-8731-BB052DAA142E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4449FF57-F16A-417A-8731-BB052DAA142E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4449FF57-F16A-417A-8731-BB052DAA142E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{74224F9B-64F8-456C-8A2D-953EA4615FD9} = {CDD49C2B-A9D8-42FF-9E62-A711871F1843}
+		{4449FF57-F16A-417A-8731-BB052DAA142E} = {5A850B2A-7BE3-4F30-9702-E88FC9B86DDC}
 	EndGlobalSection
 EndGlobal
